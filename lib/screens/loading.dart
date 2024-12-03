@@ -1,0 +1,3 @@
+// açılış ekranının buluncağı dosya
+
+//

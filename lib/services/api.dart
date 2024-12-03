@@ -1,0 +1,1 @@
+// sunucu bağlantısıyla verilerin veritabanına gönderilmesi veya alınması işlemlerinin olacağı dosya
