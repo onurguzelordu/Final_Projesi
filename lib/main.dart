@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
   runApp(const HomeStyle());
 }
 
@@ -13,7 +14,7 @@ class HomeStyle extends StatelessWidget {
     "https://sc04.alicdn.com/kf/Ha35b3662f2314e578ee628b92de127eeX.jpg",
     "https://m.media-amazon.com/images/I/81fmhkLY+kL.jpg",
     "https://ae01.alicdn.com/kf/S70b80a27839546d8b3f58fc50cd777f9j.jpg_640x640q90.jpg"
-    "https://mylamp.com.tr/UserFiles/Fotograflar/14404-gelincik-jut-dogal-hazeran-avize-50x33-cm-gelincik-hazeran-sarkit-lamba-8-png-gelincik-hazeran-sarkit-lamba-8.png",
+        "https://mylamp.com.tr/UserFiles/Fotograflar/14404-gelincik-jut-dogal-hazeran-avize-50x33-cm-gelincik-hazeran-sarkit-lamba-8-png-gelincik-hazeran-sarkit-lamba-8.png",
     "https://ideacdn.net/idea/kt/51/myassets/products/082/atlas-genc-odasi-14.jpg?revision=1731761783",
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy8Ri8Mn0Ke2Qnyw5syP-cpzpeu48C5BC3NA&s",
     "https://img.vivense.com/720x480/images/d62d19e6a9d94748802549a1afd7a90f.jpg",
@@ -67,7 +68,7 @@ class HomeStyle extends StatelessWidget {
                 padding: EdgeInsets.all(60.0),
                 child: Text(
                   'Hoş Geldiniz',
-                  style: TextStyle(color: Colors.brown, fontSize: 30),
+                  style: TextStyle(color: Colors.black, fontSize: 30),
                 ),
               ),
               Expanded(
