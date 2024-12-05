@@ -73,6 +73,8 @@ Ekran Görüntüleri:
 
 
 ![Ekran görüntüsü 2024-12-05 214356](https://github.com/user-attachments/assets/2d3996da-f5e2-419c-807c-c75f651b454a)
+
+
 ![Ekran görüntüsü 2024-12-05 214423](https://github.com/user-attachments/assets/eb4fb112-ec4e-462f-b650-dc7d4d9fc220)
 
 
