@@ -2,7 +2,7 @@ Flutter Projesi
 
 İstinye Üniversitesi
 
-![İstinye Üniversitesi](images/istinye.png/)
+![image](https://github.com/user-attachments/assets/e0a76c00-518d-441f-9df0-1de967fdf884)
 
 
 Proje Hakkında
