@@ -20,10 +20,10 @@ class LoadingScreen extends StatelessWidget {
               children: [
                 // Logo bölümü
                 Container(
-                  width: 150,
-                  height: 150,
-                  child: Image.asset(
-                    'assets/images/chair.png',
+                  width: 250,
+                  height: 250,
+                  child: Image.network(
+                   "https://img.vivense.com/300x300/images/437fb06bc4404e66b1decf911988d2e0.jpg",
                     fit: BoxFit.contain,
                   ),
                 ),
