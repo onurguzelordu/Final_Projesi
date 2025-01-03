@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-
+import 'package:go_router/go_router.dart';
+import 'package:home_decoration/core/constrants.dart';
+import 'package:home_decoration/widgets/bottom_menu.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -54,12 +56,10 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-
-      debugShowCheckedModeBanner: false,
-      home: Scaffold(
+    var scaffold = Scaffold(
         drawer: Drawer(
-          backgroundColor: Colors.white,
+          elevation: 0,
+          backgroundColor: ArkaPlanRengi,
           child: Column(
             children: [
               DrawerHeader(
@@ -155,7 +155,11 @@ class HomePage extends StatelessWidget {
         ),
         appBar: AppBar(
           actions: [
-            IconButton(onPressed: () {}, icon: Icon(Icons.search)),
+            IconButton(
+                onPressed: () {
+                  context.go("/search");
+                },
+                icon: Icon(Icons.search)),
             SizedBox(width: 20),
           ],
           title: Center(
@@ -223,30 +227,14 @@ class HomePage extends StatelessWidget {
             },
           ),
         ),
-        bottomNavigationBar: BottomNavigationBar(
-          items: const <BottomNavigationBarItem>[
-            BottomNavigationBarItem(
-              icon: Icon(Icons.home_filled, color: Colors.white),
-              label: 'Home',
-            ),
-            BottomNavigationBarItem(
-              icon: Icon(Icons.contact_support_outlined, color: Colors.white),
-              label: 'Help Desk',
-            ),
-            BottomNavigationBarItem(
-              icon: Icon(Icons.person_rounded, color: Colors.white),
-              label: 'Profile',
-            ),
-          ],
-          currentIndex: 0,
-          backgroundColor: Colors.brown,
-          selectedItemColor: Colors.white, // Seçili etiket rengi
-          unselectedItemColor: Colors.white, // Seçili olmayan etiket rengi
-          onTap: (index) {
-            // Implement button click logic here
-          },
-        ),
-      ),
+        bottomNavigationBar: BottomMenu(),
+      );
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: scaffold,
     );
   }
 }
+
+
+
