@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:home_decoration/widgets/bottom_menu.dart';
-import 'package:home_decoration/core/constrants.dart';
+
 
 
 class SearchScreen extends StatelessWidget {
@@ -9,7 +9,7 @@ class SearchScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: ArkaPlanRengi,
+
       body: ListView(
           children: [
             Text("Arama1", style:Theme.of(context).textTheme.headlineMedium ,

@@ -1,7 +1,7 @@
 // açılış ekranının buluncağı dosya
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:home_decoration/core/constrants.dart';
+
 
 class LoadingScreen extends StatelessWidget {
   const LoadingScreen({super.key});
@@ -9,7 +9,7 @@ class LoadingScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: ArkaPlanRengi,
+
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [

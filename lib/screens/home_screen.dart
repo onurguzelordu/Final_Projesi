@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:home_decoration/core/constrants.dart';
+
 import 'package:home_decoration/widgets/bottom_menu.dart';
 
 class HomePage extends StatelessWidget {
@@ -59,7 +59,7 @@ class HomePage extends StatelessWidget {
     var scaffold = Scaffold(
       drawer: Drawer(
         elevation: 0,
-        backgroundColor: ArkaPlanRengi,
+
         child: Column(
           children: [
             DrawerHeader(
