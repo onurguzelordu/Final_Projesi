@@ -57,184 +57,195 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var scaffold = Scaffold(
-        drawer: Drawer(
-          elevation: 0,
-          backgroundColor: ArkaPlanRengi,
-          child: Column(
-            children: [
-              DrawerHeader(
-                padding: EdgeInsets.all(60.0),
-                child: Text(
-                  'Hoş Geldiniz',
-                  style: TextStyle(color: Colors.black, fontSize: 30),
-                ),
+      drawer: Drawer(
+        elevation: 0,
+        backgroundColor: ArkaPlanRengi,
+        child: Column(
+          children: [
+            DrawerHeader(
+              padding: EdgeInsets.all(60.0),
+              child: Text(
+                'Hoş Geldiniz',
+                style: TextStyle(color: Colors.black, fontSize: 30),
               ),
-              Expanded(
-                child: ListView(
-                  padding: EdgeInsets.zero, // Varsayılan padding'i sıfırla
-                  children: [
-                    ListTile(
-                      leading: IconButton(
-                        icon: Icon(Icons.login), // Giriş simgesi
-                        onPressed: () {
-                          // Giriş yapma işlemleri burada yapılabilir
-                        },
-                      ),
-                      title: Text('Giriş Yapınız/Kayıt Olunuz'),
-                      textColor: Colors.black,
-                      onTap: () {
-                        // Giriş yapma veya kayıt olma işlemleri burada yapılabilir
+            ),
+            Expanded(
+              child: ListView(
+                padding: EdgeInsets.zero, // Varsayılan padding'i sıfırla
+                children: [
+                  ListTile(
+                    leading: IconButton(
+                      icon: Icon(Icons.login), // Giriş simgesi
+                      onPressed: () {
+                        // Giriş yapma işlemleri burada yapılabilir
                       },
                     ),
-                    ListTile(
-                      leading: IconButton(
-                        icon: Icon(Icons.store), // Mağaza simgesi
-                        onPressed: () {
-                          // Mağaza işlemleri burada yapılabilir
-                        },
-                      ),
-                      title: Text('Mağazalar'),
-                      textColor: Colors.black,
-                      onTap: () {
-                        // Mağazalar sayfasına yönlendirme burada yapılabilir
+                    title: Text('Giriş Yapınız/Kayıt Olunuz'),
+                    textColor: Colors.black,
+                    onTap: () {
+                      // Giriş yapma veya kayıt olma işlemleri burada yapılabilir
+                    },
+                  ),
+                  ListTile(
+                    leading: IconButton(
+                      icon: Icon(Icons.store), // Mağaza simgesi
+                      onPressed: () {
+                        // Mağaza işlemleri burada yapılabilir
                       },
                     ),
-                    ListTile(
-                      leading: IconButton(
-                        icon: Icon(Icons.contact_mail), // İletişim simgesi
-                        onPressed: () {
-                          // İletişim işlemleri burada yapılabilir
-                        },
-                      ),
-                      title: Text('İletişim'),
-                      textColor: Colors.black,
-                      onTap: () {
-                        // İletişim sayfasına yönlendirme burada yapılabilir
+                    title: Text('Mağazalar'),
+                    textColor: Colors.black,
+                    onTap: () {
+                      // Mağazalar sayfasına yönlendirme burada yapılabilir
+                    },
+                  ),
+                  ListTile(
+                    leading: IconButton(
+                      icon: Icon(Icons.favorite),
+                      onPressed: () {
+                        // Mağaza işlemleri burada yapılabilir
                       },
                     ),
-                    SizedBox(
-                      height: 20,
-                    ),
-                    ListTile(
-                      title: Text('Masalar'),
-                      textColor: Colors.black,
-                      trailing: Icon(Icons.arrow_forward), // Ok simgesi ekle
-                      onTap: () {
-                        // İletişim sayfasına yönlendirme burada yapılabilir
+                    title: Text('Favori Ürünleriniz'),
+                    textColor: Colors.black,
+                    onTap: () {
+                      '/favourites';
+                      // Mağazalar sayfasına yönlendirme burada yapılabilir
+                    },
+                  ),
+                  ListTile(
+                    leading: IconButton(
+                      icon: Icon(Icons.contact_mail), // İletişim simgesi
+                      onPressed: () {
+                        // İletişim işlemleri burada yapılabilir
                       },
                     ),
-                    ListTile(
-                      title: Text('Lambaderler'),
-                      textColor: Colors.black,
-                      trailing: Icon(Icons.arrow_forward), // Ok simgesi ekle
-                      onTap: () {
-                        // İletişim sayfasına yönlendirme burada yapılabilir
-                      },
-                    ),
-                    ListTile(
-                      title: Text('Sandalyeler'),
-                      textColor: Colors.black,
-                      trailing: Icon(Icons.arrow_forward), // Ok simgesi ekle
-                      onTap: () {
-                        // İletişim sayfasına yönlendirme burada yapılabilir
-                      },
-                    ),
-                    ListTile(
-                      title: Text('Koltuklar'),
-                      textColor: Colors.black,
-                      trailing: Icon(Icons.arrow_forward), // Ok simgesi ekle
-                      onTap: () {
-                        // İletişim sayfasına yönlendirme burada yapılabilir
-                      },
-                    )
-                  ],
-                ),
+                    title: Text('İletişim'),
+                    textColor: Colors.black,
+                    onTap: () {
+                      // İletişim sayfasına yönlendirme burada yapılabilir
+                    },
+                  ),
+                  SizedBox(
+                    height: 20,
+                  ),
+                  ListTile(
+                    title: Text('Masalar'),
+                    textColor: Colors.black,
+                    trailing: Icon(Icons.arrow_forward), // Ok simgesi ekle
+                    onTap: () {
+                      // İletişim sayfasına yönlendirme burada yapılabilir
+                    },
+                  ),
+                  ListTile(
+                    title: Text('Lambaderler'),
+                    textColor: Colors.black,
+                    trailing: Icon(Icons.arrow_forward), // Ok simgesi ekle
+                    onTap: () {
+                      // İletişim sayfasına yönlendirme burada yapılabilir
+                    },
+                  ),
+                  ListTile(
+                    title: Text('Sandalyeler'),
+                    textColor: Colors.black,
+                    trailing: Icon(Icons.arrow_forward), // Ok simgesi ekle
+                    onTap: () {
+                      // İletişim sayfasına yönlendirme burada yapılabilir
+                    },
+                  ),
+                  ListTile(
+                    title: Text('Koltuklar'),
+                    textColor: Colors.black,
+                    trailing: Icon(Icons.arrow_forward), // Ok simgesi ekle
+                    onTap: () {
+                      // İletişim sayfasına yönlendirme burada yapılabilir
+                    },
+                  )
+                ],
               ),
-            ],
-          ),
-        ),
-        appBar: AppBar(
-          actions: [
-            IconButton(
-                onPressed: () {
-                  context.go("/search");
-                },
-                icon: Icon(Icons.search)),
-            SizedBox(width: 20),
+            ),
           ],
-          title: Center(
-            child: Text(
-              'HomeDecoration',
-              style: TextStyle(
-                fontWeight: FontWeight.bold,
-              ),
+        ),
+      ),
+      appBar: AppBar(
+        actions: [
+          IconButton(
+              onPressed: () {
+                context.go("/search");
+              },
+              icon: Icon(Icons.search)),
+          SizedBox(width: 20),
+        ],
+        title: Center(
+          child: Text(
+            'HomeDecoration',
+            style: TextStyle(
+              fontWeight: FontWeight.bold,
             ),
           ),
         ),
-        body: Scrollbar(
-          child: ListView.builder(
-            itemCount: imageUrls.length,
-            itemBuilder: (context, index) {
-              final imageUrl = imageUrls[index];
-              final name = productNames[index];
-              final description = productDescriptions[index];
-              final price = productPrices[index];
+      ),
+      body: Scrollbar(
+        child: ListView.builder(
+          itemCount: imageUrls.length,
+          itemBuilder: (context, index) {
+            final imageUrl = imageUrls[index];
+            final name = productNames[index];
+            final description = productDescriptions[index];
+            final price = productPrices[index];
 
-              return Card(
-                margin: EdgeInsets.all(10),
-                child: Padding(
-                  padding: const EdgeInsets.all(10),
-                  child: Row(
-                    children: [
-                      Container(
-                        width: 100,
-                        height: 100,
-                        child: Image.network(imageUrl),
-                      ),
-                      SizedBox(width: 10),
-                      Expanded(
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            Text(
-                              name,
-                              style: TextStyle(fontWeight: FontWeight.bold),
+            return Card(
+              margin: EdgeInsets.all(10),
+              child: Padding(
+                padding: const EdgeInsets.all(10),
+                child: Row(
+                  children: [
+                    Container(
+                      width: 100,
+                      height: 100,
+                      child: Image.network(imageUrl),
+                    ),
+                    SizedBox(width: 10),
+                    Expanded(
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            name,
+                            style: TextStyle(fontWeight: FontWeight.bold),
+                          ),
+                          Text(description),
+                          Text(
+                            '\$${price.toStringAsFixed(2)}',
+                            style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                              color: Colors.green,
                             ),
-                            Text(description),
-                            Text(
-                              '\$${price.toStringAsFixed(2)}',
-                              style: TextStyle(
-                                fontWeight: FontWeight.bold,
-                                color: Colors.green,
-                              ),
-                            ),
-                          ],
-                        ),
+                          ),
+                        ],
                       ),
-                      ElevatedButton(
-                        onPressed: () {
-                          // Sepete ekleme işlemi burada yapılabilir
-                          ScaffoldMessenger.of(context).showSnackBar(
-                            SnackBar(content: Text('$name sepete eklendi!')),
-                          );
-                        },
-                        child: Text('Sepete Ekle'),
-                      ),
-                    ],
-                  ),
+                    ),
+                    ElevatedButton(
+                      onPressed: () {
+                        // Sepete ekleme işlemi burada yapılabilir
+                        ScaffoldMessenger.of(context).showSnackBar(
+                          SnackBar(content: Text('$name sepete eklendi!')),
+                        );
+                      },
+                      child: Text('Sepete Ekle'),
+                    ),
+                  ],
                 ),
-              );
-            },
-          ),
+              ),
+            );
+          },
         ),
-        bottomNavigationBar: BottomMenu(),
-      );
+      ),
+      bottomNavigationBar: BottomMenu(),
+    );
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: scaffold,
     );
   }
 }
-
-
-

@@ -13,12 +13,9 @@ class HomeStyle extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp.router(
       title: 'Flutter App',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-        visualDensity: VisualDensity.adaptivePlatformDensity,
-        // theme: lightTheme
-        
-      ),
+      themeMode: ThemeMode.dark,
+      theme: lightTheme,
+      
       routerConfig: router, // go_router yapılandırmamızı kullan
       debugShowCheckedModeBanner: false, // Debug bandını kaldır
     );

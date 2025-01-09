@@ -1,10 +1,9 @@
 import 'package:go_router/go_router.dart';
 import 'package:home_decoration/screens/help_desk_screen.dart';
-import 'package:home_decoration/screens/history_screen.dart';
 import 'package:home_decoration/screens/home_screen.dart';
 import 'package:home_decoration/screens/profile_screen.dart';
 import 'package:home_decoration/screens/search_screen.dart';
-import 'package:home_decoration/screens/voice.screen.dart';
+import 'package:home_decoration/screens/favourites_screen.dart';
 import '../screens/loading_screen.dart';
 
 
@@ -25,8 +24,8 @@ final router = GoRouter(
       builder: (context, state) => const ProfileScreen(),
     ),
     GoRoute(
-      path: '/voice',
-      builder: (context, state) => const VoiceScreen(),
+      path: '/favourites',
+      builder: (context, state) => const FavouritesScreen(),
     ),
     GoRoute(
       path: '/helpdesk',
@@ -38,10 +37,7 @@ final router = GoRouter(
       builder: (context, state) => const SearchScreen(),
     ),
 
-      GoRoute(
-      path: '/history',
-      builder: (context, state) => const HistoryScreen(),
-    ),
+     
 
 
   ],

@@ -26,14 +26,15 @@ class LoadingScreen extends StatelessWidget {
                   fit: BoxFit.contain,
                 ),
               ),
-
+                  const CircularProgressIndicator(),
               InkWell(
                 onTap: () => context.go("/home"),
                 child: SizedBox(
                   width: 300,
                 ),
               ),
-              const CircularProgressIndicator(),
+           const SizedBox(width: 60,),
+              TextButton(onPressed: () =>  context.go("/home"), child:Text("Geri dönmek için buraya tıklayınız.")),
             ]),
           ),
         ],

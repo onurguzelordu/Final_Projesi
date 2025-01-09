@@ -10,11 +10,42 @@ class SearchScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: ArkaPlanRengi,
-      body: Center(
-        child: Text("Arama Ekraniniz"),
+      body: ListView(
+          children: [
+            Text("Arama1", style:Theme.of(context).textTheme.headlineMedium ,
+            
+            ),
+
+            Text("Arama2", style:Theme.of(context).textTheme.labelSmall ,
+            
+            ),
+
+            Text("Arama3", style:Theme.of(context).textTheme.headlineSmall ,
+            
+            ),
+
+            Text("Arama4", style:Theme.of(context).textTheme.bodyLarge ,
+            
+            ),
+
+            Text("Arama5", style:Theme.of(context).textTheme.labelLarge ,
+            
+            ),
+          ],
+
+
+
+
+
+
 
       ),
+      
+      
+      
+      
       bottomNavigationBar: BottomMenu() ,
+      
     );
     
   }
