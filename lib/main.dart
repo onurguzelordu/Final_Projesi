@@ -13,10 +13,10 @@ class HomeStyle extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp.router(
       title: 'Flutter App',
-      themeMode: ThemeMode.dark,     // system yaparsak kullanıcı hangi modda kullanıyorsa  o mod açık kalır.
-      theme: darkTheme,
-
-      
+      theme: lightTheme,
+      darkTheme: darkTheme,
+      themeMode: ThemeMode
+          .light, // system yaparsak kullanıcı hangi modda kullanıyorsa  o mod açık kalır.
       routerConfig: router, // go_router yapılandırmamızı kullan
       debugShowCheckedModeBanner: false, // Debug bandını kaldır
     );

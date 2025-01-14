@@ -9,8 +9,9 @@ const colors = {
   "onSecondary": Color.fromRGBO(255, 255, 255, 1),
   "surface": Color.fromRGBO(255, 255, 255, 1),
   "onSurface": Color.fromRGBO(128, 107, 126, 1),
-// "success": Color.fromRGBO(r, g, b, opacity),
-// "error": Color.fromRGBO(r, g, b, opacity),
+  "success": Color.fromRGBO(46, 161, 40, 1),
+  "error": Color.fromRGBO(158, 58, 58, 1),
+  "onError": Color.fromRGBO(248, 248, 248, 1),
 };
 
 const darkColors = {
@@ -20,8 +21,9 @@ const darkColors = {
   "onSecondary": Color.fromRGBO(255, 255, 255, 1),
   "surface": Color.fromRGBO(13, 28, 48, 1), // gece modu için seçtiğim renk
   "onSurface": Color.fromRGBO(255, 255, 255, 1),
-// "success": Color.fromRGBO(r, g, b, opacity),
-// "error": Color.fromRGBO(r, g, b, opacity),
+  "success": Color.fromRGBO(46, 161, 40, 1),
+  "error": Color.fromRGBO(158, 58, 58, 1),
+  "onError": Color.fromRGBO(246, 245, 245, 1),
 };
 
 final lightTheme = ThemeData(

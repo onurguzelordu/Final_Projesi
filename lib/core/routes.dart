@@ -4,12 +4,11 @@ import 'package:home_decoration/screens/home_screen.dart';
 import 'package:home_decoration/screens/profile_screen.dart';
 import 'package:home_decoration/screens/search_screen.dart';
 import 'package:home_decoration/screens/favourites_screen.dart';
-import '../screens/loading_screen.dart';
-
+import 'package:home_decoration/screens/loading_screen.dart';
 
 // Router yapılandırması
 final router = GoRouter(
-  initialLocation: '/',  // Başlangıç rotası
+  initialLocation: '/', // Başlangıç rotası
   routes: [
     GoRoute(
       path: '/',
@@ -17,7 +16,7 @@ final router = GoRouter(
     ),
     GoRoute(
       path: '/home',
-      builder: (context, state) => HomePage(),
+      builder: (context, state) => const HomePage(),
     ),
     GoRoute(
       path: '/profile',
@@ -31,30 +30,9 @@ final router = GoRouter(
       path: '/helpdesk',
       builder: (context, state) => const HelpDeskScreen(),
     ),
-
-     GoRoute(
+    GoRoute(
       path: '/search',
       builder: (context, state) => const SearchScreen(),
     ),
-
-     
-
-
   ],
 );
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
