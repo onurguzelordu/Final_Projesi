@@ -44,7 +44,7 @@ class SearchScreen extends StatelessWidget {
       
       
       
-      bottomNavigationBar: BottomMenu() ,
+      bottomNavigationBar: const BottomMenu() ,
       
     );
     

@@ -62,7 +62,7 @@ class HomePage extends StatelessWidget {
 
         child: Column(
           children: [
-            DrawerHeader(
+            const DrawerHeader(
               padding: EdgeInsets.all(60.0),
               child: Text(
                 'Hoş Geldiniz',
@@ -75,12 +75,12 @@ class HomePage extends StatelessWidget {
                 children: [
                   ListTile(
                     leading: IconButton(
-                      icon: Icon(Icons.login), // Giriş simgesi
+                      icon: const Icon(Icons.login), // Giriş simgesi
                       onPressed: () {
                         // Giriş yapma işlemleri burada yapılabilir
                       },
                     ),
-                    title: Text('Giriş Yapınız/Kayıt Olunuz'),
+                    title: const Text('Giriş Yapınız/Kayıt Olunuz'),
                     textColor: Colors.black,
                     onTap: () {
                       // Giriş yapma veya kayıt olma işlemleri burada yapılabilir
@@ -88,12 +88,12 @@ class HomePage extends StatelessWidget {
                   ),
                   ListTile(
                     leading: IconButton(
-                      icon: Icon(Icons.store), // Mağaza simgesi
+                      icon: const Icon(Icons.store), // Mağaza simgesi
                       onPressed: () {
                         // Mağaza işlemleri burada yapılabilir
                       },
                     ),
-                    title: Text('Mağazalar'),
+                    title: const Text('Mağazalar'),
                     textColor: Colors.black,
                     onTap: () {
                       // Mağazalar sayfasına yönlendirme burada yapılabilir
@@ -101,12 +101,12 @@ class HomePage extends StatelessWidget {
                   ),
                   ListTile(
                     leading: IconButton(
-                      icon: Icon(Icons.favorite),
+                      icon: const Icon(Icons.favorite),
                       onPressed: () {
                         // Mağaza işlemleri burada yapılabilir
                       },
                     ),
-                    title: Text('Favori Ürünleriniz'),
+                    title: const Text('Favori Ürünleriniz'),
                     textColor: Colors.black,
                     onTap: () {
                       '/favourites';
@@ -115,48 +115,48 @@ class HomePage extends StatelessWidget {
                   ),
                   ListTile(
                     leading: IconButton(
-                      icon: Icon(Icons.contact_mail), // İletişim simgesi
+                      icon: const Icon(Icons.contact_mail), // İletişim simgesi
                       onPressed: () {
                         // İletişim işlemleri burada yapılabilir
                       },
                     ),
-                    title: Text('İletişim'),
+                    title: const Text('İletişim'),
                     textColor: Colors.black,
                     onTap: () {
                       // İletişim sayfasına yönlendirme burada yapılabilir
                     },
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 20,
                   ),
                   ListTile(
-                    title: Text('Masalar'),
+                    title: const Text('Masalar'),
                     textColor: Colors.black,
-                    trailing: Icon(Icons.arrow_forward), // Ok simgesi ekle
+                    trailing: const Icon(Icons.arrow_forward), // Ok simgesi ekle
                     onTap: () {
                       // İletişim sayfasına yönlendirme burada yapılabilir
                     },
                   ),
                   ListTile(
-                    title: Text('Lambaderler'),
+                    title: const Text('Lambaderler'),
                     textColor: Colors.black,
-                    trailing: Icon(Icons.arrow_forward), // Ok simgesi ekle
+                    trailing: const Icon(Icons.arrow_forward), // Ok simgesi ekle
                     onTap: () {
                       // İletişim sayfasına yönlendirme burada yapılabilir
                     },
                   ),
                   ListTile(
-                    title: Text('Sandalyeler'),
+                    title: const Text('Sandalyeler'),
                     textColor: Colors.black,
-                    trailing: Icon(Icons.arrow_forward), // Ok simgesi ekle
+                    trailing: const Icon(Icons.arrow_forward), // Ok simgesi ekle
                     onTap: () {
                       // İletişim sayfasına yönlendirme burada yapılabilir
                     },
                   ),
                   ListTile(
-                    title: Text('Koltuklar'),
+                    title: const Text('Koltuklar'),
                     textColor: Colors.black,
-                    trailing: Icon(Icons.arrow_forward), // Ok simgesi ekle
+                    trailing: const Icon(Icons.arrow_forward), // Ok simgesi ekle
                     onTap: () {
                       // İletişim sayfasına yönlendirme burada yapılabilir
                     },
@@ -173,10 +173,10 @@ class HomePage extends StatelessWidget {
               onPressed: () {
                 context.go("/search");
               },
-              icon: Icon(Icons.search)),
-          SizedBox(width: 20),
+              icon: const Icon(Icons.search)),
+          const SizedBox(width: 20),
         ],
-        title: Center(
+        title: const Center(
           child: Text(
             'HomeDecoration',
             style: TextStyle(
@@ -195,29 +195,29 @@ class HomePage extends StatelessWidget {
             final price = productPrices[index];
 
             return Card(
-              margin: EdgeInsets.all(10),
+              margin: const EdgeInsets.all(10),
               child: Padding(
                 padding: const EdgeInsets.all(10),
                 child: Row(
                   children: [
-                    Container(
+                    SizedBox(
                       width: 100,
                       height: 100,
                       child: Image.network(imageUrl),
                     ),
-                    SizedBox(width: 10),
+                    const SizedBox(width: 10),
                     Expanded(
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(
                             name,
-                            style: TextStyle(fontWeight: FontWeight.bold),
+                            style: const TextStyle(fontWeight: FontWeight.bold),
                           ),
                           Text(description),
                           Text(
                             '\$${price.toStringAsFixed(2)}',
-                            style: TextStyle(
+                            style: const TextStyle(
                               fontWeight: FontWeight.bold,
                               color: Colors.green,
                             ),
@@ -232,7 +232,7 @@ class HomePage extends StatelessWidget {
                           SnackBar(content: Text('$name sepete eklendi!')),
                         );
                       },
-                      child: Text('Sepete Ekle'),
+                      child: const Text('Sepete Ekle'),
                     ),
                   ],
                 ),
@@ -241,7 +241,7 @@ class HomePage extends StatelessWidget {
           },
         ),
       ),
-      bottomNavigationBar: BottomMenu(),
+      bottomNavigationBar: const BottomMenu(),
     );
     return MaterialApp(
       debugShowCheckedModeBanner: false,

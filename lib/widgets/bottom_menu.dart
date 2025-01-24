@@ -18,7 +18,7 @@ class BottomMenu extends StatelessWidget {
               onPressed: () {
                 context.go("/home");
               },
-              icon: Icon(
+              icon: const Icon(
                 Icons.home_filled,
                 color: Colors.white,
               ),
@@ -28,13 +28,13 @@ class BottomMenu extends StatelessWidget {
                 context.go("/helpdesk");
               },
               icon:
-                  Icon(Icons.contact_support_outlined, color: Colors.white),
+                  const Icon(Icons.contact_support_outlined, color: Colors.white),
             ),
             IconButton(
               onPressed: () {
                 context.go("/profile");
               },
-              icon: Icon(Icons.person_rounded, color: Colors.white),
+              icon: const Icon(Icons.person_rounded, color: Colors.white),
             ),
           ],
         ));

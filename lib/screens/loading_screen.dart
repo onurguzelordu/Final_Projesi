@@ -12,11 +12,11 @@ class LoadingScreen extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           // Logo ve yükleme göstergesi bölümü
-          Container(
+          SizedBox(
             width: double.infinity,
             child: Column(children: [
               // Logo bölümü
-              Container(
+              SizedBox(
                 width: 250,
                 height: 250,
                 child: Image.network(
@@ -27,7 +27,7 @@ class LoadingScreen extends StatelessWidget {
               const CircularProgressIndicator(),
               InkWell(
                 onTap: () => context.go("/home"),
-                child: SizedBox(
+                child: const SizedBox(
                   width: 300,
                 ),
               ),
@@ -36,7 +36,7 @@ class LoadingScreen extends StatelessWidget {
               ),
               TextButton(
                 onPressed: () => context.go("/home"),
-                child: Text("Geri dönmek için buraya tıklayınız."),
+                child: const Text("Geri dönmek için buraya tıklayınız."),
               ),
             ]),
           ),
