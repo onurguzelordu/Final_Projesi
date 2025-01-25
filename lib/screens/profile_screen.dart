@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:home_decoration/widgets/bottom_menu.dart';
+import 'package:home_decoration/widgets/bottom_menu.dart'; // deneme1
 
 
 class ProfileScreen extends StatelessWidget {
@@ -24,12 +24,12 @@ class ProfileScreen extends StatelessWidget {
                 children: [
     
 
-                  CircleAvatar(
+                  const CircleAvatar(
                     radius: 50,
                     
                     ),
 
-                    SizedBox(height: 5),
+                    const SizedBox(height: 5),
                     TextButton(onPressed:() {
                     }, child: const Text("Fotoğraf Yükleyiniz"),),
                  
@@ -126,13 +126,13 @@ Column(
               ),
             ),
           ),
-          SizedBox(height: 24),
+          const SizedBox(height: 24),
           FilledButton.icon(
             onPressed: () {},
-            icon: Icon(Icons.logout),
-            label: Text("Cikis Yapiniz"),
+            icon: const Icon(Icons.logout),
+            label: const Text("Cikis Yapiniz"),
             style: FilledButton.styleFrom(
-              minimumSize: Size(double.infinity, 50),
+              minimumSize: const Size(double.infinity, 50),
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(10),
               ),
@@ -141,10 +141,10 @@ Column(
           if (context.canPop())
             TextButton.icon(
               onPressed: () => context.pop(),
-              icon: Icon(Icons.arrow_back),
-              label: Text("Geri Dön"),
+              icon: const Icon(Icons.arrow_back),
+              label: const Text("Geri Dön"),
               style: TextButton.styleFrom(
-                minimumSize: Size(double.infinity, 50),
+                minimumSize: const Size(double.infinity, 50),
               ),
             ),
         ],
