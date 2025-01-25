@@ -4,7 +4,7 @@ Flutter Projesi
 
 
 
-![Demo_Videosu_Burada](https://youtube.com/shorts/QsiCJR7g4Jg?feature=share)
+![https://youtube.com/shorts/QsiCJR7g4Jg?feature=share](Demo_Videosu_Burada)
 
 
 Proje Hakkında
