@@ -82,8 +82,8 @@ class HomePage extends StatelessWidget {
                     ),
                     title: const Text('Giriş Yapınız/Kayıt Olunuz'),
                     textColor: Colors.black,
-                    onTap: () {
-                      // Giriş yapma veya kayıt olma işlemleri burada yapılabilir
+                    onTap: () {  context.go("/login");
+                     
                     },
                   ),
                   ListTile(

@@ -1,6 +1,7 @@
 import 'package:go_router/go_router.dart';
 import 'package:home_decoration/screens/help_desk_screen.dart';
 import 'package:home_decoration/screens/home_screen.dart';
+import 'package:home_decoration/screens/login_screen.dart';
 import 'package:home_decoration/screens/profile_screen.dart';
 import 'package:home_decoration/screens/search_screen.dart';
 import 'package:home_decoration/screens/favourites_screen.dart';
@@ -34,5 +35,11 @@ final router = GoRouter(
       path: '/search',
       builder: (context, state) => const SearchScreen(),
     ),
+    GoRoute(
+      path: '/login',
+      builder: (context, state) => const LoginScreen(),
+    ),
+
+
   ],
 );

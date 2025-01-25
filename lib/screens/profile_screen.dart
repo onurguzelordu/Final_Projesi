@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:home_decoration/widgets/bottom_menu.dart'; // deneme1
+import 'package:home_decoration/widgets/bottom_menu.dart'; 
 
 
 class ProfileScreen extends StatelessWidget {
