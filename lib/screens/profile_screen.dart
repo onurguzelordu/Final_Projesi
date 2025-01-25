@@ -128,9 +128,11 @@ Column(
           ),
           const SizedBox(height: 24),
           FilledButton.icon(
-            onPressed: () {},
+            onPressed: () {
+                context.go("/home");
+            },
             icon: const Icon(Icons.logout),
-            label: const Text("Cikis Yapiniz"),
+            label: const Text("Cikis Yapiniz", style: TextStyle(color: Colors.black),),
             style: FilledButton.styleFrom(
               minimumSize: const Size(double.infinity, 50),
               shape: RoundedRectangleBorder(
@@ -138,15 +140,7 @@ Column(
               ),
             ),
           ),
-          if (context.canPop())
-            TextButton.icon(
-              onPressed: () => context.pop(),
-              icon: const Icon(Icons.arrow_back),
-              label: const Text("Geri Dön"),
-              style: TextButton.styleFrom(
-                minimumSize: const Size(double.infinity, 50),
-              ),
-            ),
+          
         ],
 
       ),     

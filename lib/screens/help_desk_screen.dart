@@ -9,18 +9,13 @@ class HelpDeskScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: 
-        Center(child: 
+       const Center(child: 
            Text(
               "Yardım Masası Ekranınız",
               style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
             
             ),),
-        leading: IconButton(
-          icon: const Icon(Icons.arrow_back),
-          onPressed: () {
-            context.go("/home");
-          },
-        ),
+        
       ),
       body: Center(
         child: Column(
@@ -43,7 +38,7 @@ class HelpDeskScreen extends StatelessWidget {
               ),
             ),
 
-           Padding( padding: const EdgeInsets.only(top: 20.0),)
+       const   Padding( padding: const EdgeInsets.only(top: 20.0),)
           ],
         ),
       ),

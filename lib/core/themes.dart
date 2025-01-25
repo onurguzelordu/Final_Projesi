@@ -15,9 +15,9 @@ const colors = {
 };
 
 const darkColors = {
-  "primary": Color.fromRGBO(13, 28, 48, 1),
+  "primary": Color.fromRGBO(255, 255, 255, 1),
   "onPrimary": Color.fromRGBO(255, 255, 255, 1),
-  "secondary": Color.fromRGBO(141, 87, 63, 1),
+  "secondary": Color.fromRGBO(255, 255, 255, 1),
   "onSecondary": Color.fromRGBO(255, 255, 255, 1),
   "surface": Color.fromRGBO(13, 28, 48, 1), // gece modu için seçtiğim renk
   "onSurface": Color.fromRGBO(255, 255, 255, 1),

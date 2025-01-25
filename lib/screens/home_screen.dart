@@ -56,7 +56,7 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    var scaffold = Scaffold(
+    return Scaffold(
       drawer: Drawer(
         elevation: 0,
 
@@ -66,7 +66,7 @@ class HomePage extends StatelessWidget {
               padding: EdgeInsets.all(60.0),
               child: Text(
                 'Hoş Geldiniz',
-                style: TextStyle(color: Colors.black, fontSize: 30),
+                style: TextStyle(color: Colors.brown, fontSize: 30),
               ),
             ),
             Expanded(
@@ -81,7 +81,7 @@ class HomePage extends StatelessWidget {
                       },
                     ),
                     title: const Text('Giriş Yapınız/Kayıt Olunuz'),
-                    textColor: Colors.black,
+                    textColor: Colors.brown,
                     onTap: () {  context.go("/login");
                      
                     },
@@ -94,7 +94,7 @@ class HomePage extends StatelessWidget {
                       },
                     ),
                     title: const Text('Mağazalar'),
-                    textColor: Colors.black,
+                    textColor: Colors.brown,
                     onTap: () {
                       // Mağazalar sayfasına yönlendirme burada yapılabilir
                     },
@@ -107,7 +107,7 @@ class HomePage extends StatelessWidget {
                       },
                     ),
                     title: const Text('Favori Ürünleriniz'),
-                    textColor: Colors.black,
+                    textColor: Colors.brown,
                     onTap: () {
                       '/favourites';
                       // Mağazalar sayfasına yönlendirme burada yapılabilir
@@ -121,7 +121,7 @@ class HomePage extends StatelessWidget {
                       },
                     ),
                     title: const Text('İletişim'),
-                    textColor: Colors.black,
+                    textColor: Colors.brown,
                     onTap: () {
                       // İletişim sayfasına yönlendirme burada yapılabilir
                     },
@@ -131,7 +131,7 @@ class HomePage extends StatelessWidget {
                   ),
                   ListTile(
                     title: const Text('Masalar'),
-                    textColor: Colors.black,
+                    textColor: Colors.brown,
                     trailing: const Icon(Icons.arrow_forward), // Ok simgesi ekle
                     onTap: () {
                       // İletişim sayfasına yönlendirme burada yapılabilir
@@ -139,7 +139,7 @@ class HomePage extends StatelessWidget {
                   ),
                   ListTile(
                     title: const Text('Lambaderler'),
-                    textColor: Colors.black,
+                    textColor: Colors.brown,
                     trailing: const Icon(Icons.arrow_forward), // Ok simgesi ekle
                     onTap: () {
                       // İletişim sayfasına yönlendirme burada yapılabilir
@@ -147,7 +147,7 @@ class HomePage extends StatelessWidget {
                   ),
                   ListTile(
                     title: const Text('Sandalyeler'),
-                    textColor: Colors.black,
+                    textColor: Colors.brown,
                     trailing: const Icon(Icons.arrow_forward), // Ok simgesi ekle
                     onTap: () {
                       // İletişim sayfasına yönlendirme burada yapılabilir
@@ -155,7 +155,7 @@ class HomePage extends StatelessWidget {
                   ),
                   ListTile(
                     title: const Text('Koltuklar'),
-                    textColor: Colors.black,
+                    textColor: Colors.brown,
                     trailing: const Icon(Icons.arrow_forward), // Ok simgesi ekle
                     onTap: () {
                       // İletişim sayfasına yönlendirme burada yapılabilir
@@ -243,9 +243,9 @@ class HomePage extends StatelessWidget {
       ),
       bottomNavigationBar: const BottomMenu(),
     );
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: scaffold,
-    );
+    
+      
+     
+   
   }
 }
