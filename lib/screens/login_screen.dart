@@ -51,10 +51,24 @@ class _LoginScreenState extends State<LoginScreen> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Text("Home Decoration"),
-              SizedBox(height: 150,),
+            const  Row(
+              
+              children: [
+                Padding(padding: EdgeInsets.only(left: 70.0)),
+                 Text(
+                  "Home Decoration",
+                  style: TextStyle(
+                    color: Color.fromRGBO(141, 87, 63, 1),
+                    fontWeight: FontWeight.w600, 
+                    fontSize: 20,
+                    
+                    
+                  ),
+                ),
+              ],
+            ),
+              const SizedBox(height: 150,),
               TextField(
-                
                 controller: epostaYonetici,
                 decoration: InputDecoration(
                   hintText: "E-Postanizi Giriniz",
