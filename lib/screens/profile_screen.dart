@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';   // Yrni ekrnlar
+import 'package:flutter/material.dart';   // Yrni ekrnlarrwyu67y
 import 'package:go_router/go_router.dart';
 import 'package:home_decoration/widgets/bottom_menu.dart';
 
