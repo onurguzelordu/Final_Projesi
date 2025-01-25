@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';   //Kutuphane
+import 'package:flutter/material.dart';   // Yrni ekrnlar
 import 'package:go_router/go_router.dart';
 import 'package:home_decoration/widgets/bottom_menu.dart';
 
