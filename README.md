@@ -2,7 +2,6 @@ Flutter Projesi
 
 ![İstinye_Üniversitesi](https://github.com/user-attachments/assets/e0a76c00-518d-441f-9df0-1de967fdf884)
 
-
 Demo Videosuna aşağıdaki linkten ulaşabilirsiniz. 
 
 https://youtube.com/shorts/QsiCJR7g4Jg?feature=share
