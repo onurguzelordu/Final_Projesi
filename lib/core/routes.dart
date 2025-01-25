@@ -3,6 +3,7 @@ import 'package:home_decoration/screens/help_desk_screen.dart';
 import 'package:home_decoration/screens/home_screen.dart';
 import 'package:home_decoration/screens/login_screen.dart';
 import 'package:home_decoration/screens/profile_screen.dart';
+import 'package:home_decoration/screens/register_screen.dart';
 import 'package:home_decoration/screens/search_screen.dart';
 import 'package:home_decoration/screens/favourites_screen.dart';
 import 'package:home_decoration/screens/loading_screen.dart';
@@ -38,6 +39,10 @@ final router = GoRouter(
     GoRoute(
       path: '/login',
       builder: (context, state) => const LoginScreen(),
+    ),
+    GoRoute(
+      path: '/register',
+      builder: (context, state) => const RegisterScreen(),
     ),
 
 

@@ -43,7 +43,7 @@ class _LoginScreenState extends State<LoginScreen> {
     return Scaffold(
       
      
-      appBar: AppBar(),
+      
       body: Center(
       
         child: SizedBox(

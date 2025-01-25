@@ -113,6 +113,19 @@ class HomePage extends StatelessWidget {
                       // Mağazalar sayfasına yönlendirme burada yapılabilir
                     },
                   ),
+                   ListTile(
+                    leading: IconButton(
+                      icon: const Icon(Icons.credit_card), // Mağaza simgesi
+                      onPressed: () {
+                        // Mağaza işlemleri burada yapılabilir
+                      },
+                    ),
+                    title: const Text('Kart Bilgileriniz'),
+                    textColor: Colors.brown,
+                    onTap: () {
+                      // Mağazalar sayfasına yönlendirme burada yapılabilir
+                    },
+                  ),
                   ListTile(
                     leading: IconButton(
                       icon: const Icon(Icons.contact_mail), // İletişim simgesi
