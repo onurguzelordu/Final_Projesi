@@ -1,6 +1,10 @@
 Flutter Projesi
 
-![image](https://github.com/user-attachments/assets/e0a76c00-518d-441f-9df0-1de967fdf884)
+![İstinye_Üniversitesi](https://github.com/user-attachments/assets/e0a76c00-518d-441f-9df0-1de967fdf884)
+
+Demo Videosuna aşağıdaki linkten ulaşabilirsiniz. 
+
+https://youtube.com/shorts/QsiCJR7g4Jg?feature=share
 
 
 Proje Hakkında
@@ -11,20 +15,20 @@ Proje Amacı: Kullanıcıların veya evini süslemek isteyen insanların, Ev dek
 
 Ekibim:
 
-[https://github.com/onurguzelordu] (Onur Güzelordu)
+https://github.com/onurguzelordu (Onur Güzelordu)
 
 Danışman:
-[https://github.com/keyvanarasteh](Keyvan Arasteh)
+https://github.com/keyvanarasteh (Keyvan Arasteh)
 
 Takım Üyeleri:
 
-[https://github.com/onurguzelordu] (Onur Güzelordu)
+https://github.com/onurguzelordu (Onur Güzelordu)
 
 Özellikler
 
-[Destek Masası ile ürünün kargo takibi, ürün değişimi, iade süreçleri, hasarlı ürünün değişimi gibi süreçlerin izlenebilmesi ve satış sonrası hizmet desteği]
+Destek Masası ile ürünün kargo takibi, ürün değişimi, iade süreçleri, hasarlı ürünün değişimi gibi süreçlerin izlenebilmesi ve satış sonrası hizmet desteği
 
-[Kahverengi Arayüz]
+Kahverengi Arayüz
 
 Kullanılan Teknolojiler
 
@@ -37,9 +41,7 @@ Gereksinimler
 
 • Flutter SDK (sürüm 3.24.5)
 
-Dart SDK (sürüm 3.2.4)
-
-[Diğer gerekli yazılımlar]
+• Dart SDK (sürüm 3.2.4)
 
 Kurulum Adımları
 
@@ -96,7 +98,7 @@ Lisans
 MIT Lisansı kapsamında lisanslanmıştır. Daha fazla bilgi için LICENSE dosyasını inceleyebilirsiniz.
 
 İletişim
-Proje Bağlantısı: [https://github.com/onurguzelordu/git-github.com-onurguzelordu-Flutter_Project]
+Proje Bağlantısı: https://github.com/onurguzelordu/git-github.com-onurguzelordu-Flutter_Project
 
 İstinye Üniversitesi: https://www.istinye.edu.tr/
 
