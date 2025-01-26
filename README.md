@@ -74,10 +74,8 @@ lib/
 Ekran Görüntüleri:
 
 
-![Ekran görüntüsü 2024-12-05 214356](https://github.com/user-attachments/assets/2d3996da-f5e2-419c-807c-c75f651b454a)
+![Screenshot (3)](https://github.com/user-attachments/assets/59e59635-d837-478b-9bad-384dbc6845a3)
 
-
-![Ekran görüntüsü 2024-12-05 214423](https://github.com/user-attachments/assets/eb4fb112-ec4e-462f-b650-dc7d4d9fc220)
 
 
 
