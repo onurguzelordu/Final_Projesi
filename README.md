@@ -47,17 +47,17 @@ https://github.com/onurguzelordu (Onur Güzelordu)
 ## Kurulum Adımları
 
 1. Projeyi bilgisayarınıza indirin:
-```git  clone https://github.com/onurguzelordu/git-github.com-onurguzelordu-Flutter_Project.git ```
+<pre><code>git  clone https://github.com/onurguzelordu/git-github.com-onurguzelordu-Flutter_Project.git </code></pre>
 
 
 3. Proje klasörüne gidin:
-```cd [home_decoration]```
+<pre><code>cd [home decoration]</code></pre>
 
 4. Gerekli paketleri yükleyin:
-```flutter  pub  get```
+<pre><code>flutter pub get</code></pre>
 
 6. Uygulamayı başlatın:
-```flutter  run```
+<pre><code>flutter run</code></pre>
 
 # Proje Yapısı
 ```
@@ -81,7 +81,8 @@ Ekran Görüntüleri:
 ![Home_Decoration1](https://github.com/user-attachments/assets/4d6a5d84-39e2-451c-a6b2-7081a91b513c)
 ![Screenshot (2)](https://github.com/user-attachments/assets/44a7b0f3-ab08-4050-b28f-7c9684ed246b)
 ![Screenshot (3)](https://github.com/user-attachments/assets/59e59635-d837-478b-9bad-384dbc6845a3)
-![Screenshot (6)](https://github.com/user-attachments/assets/772d14b0-847e-43a3-83cb-12c6042835d2)
+![Screenshot (7)](https://github.com/user-attachments/assets/2b087ba7-d8fe-40b5-8c6a-b6ac28eaa352)
+
 
 
 # Projeye Katkı Sağlama
