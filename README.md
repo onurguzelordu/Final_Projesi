@@ -73,7 +73,8 @@ lib/
 
 Ekran Görüntüleri:
 
-
+![Home_Decoration1](https://github.com/user-attachments/assets/4d6a5d84-39e2-451c-a6b2-7081a91b513c)
+![Screenshot (2)](https://github.com/user-attachments/assets/44a7b0f3-ab08-4050-b28f-7c9684ed246b)
 ![Screenshot (3)](https://github.com/user-attachments/assets/59e59635-d837-478b-9bad-384dbc6845a3)
 
 
