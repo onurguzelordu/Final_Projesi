@@ -4,7 +4,7 @@
 
 • Projenin Demo Videosuna aşağıdaki linkten ulaşabilirsiniz. 
 
-https://youtube.com/shorts/j7RV00ihkb4?feature=share
+https://youtube.com/shorts/DXxpv0yizO8?feature=share
 
 
 # Proje Hakkında
