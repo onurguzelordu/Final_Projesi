@@ -63,6 +63,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
         child: SizedBox(
           width: 300,
           child: Column(
+          
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
                

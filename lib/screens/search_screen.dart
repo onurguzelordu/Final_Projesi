@@ -11,6 +11,7 @@ class SearchScreen extends StatelessWidget {
     return Scaffold(
 
       body: ListView(
+        
           children: [
             Text("Arama1", style:Theme.of(context).textTheme.headlineMedium ,
             

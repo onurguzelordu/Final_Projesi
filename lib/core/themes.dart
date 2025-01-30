@@ -1,6 +1,7 @@
 // Temalandırma, renklendirme ve daha fazlası buarda olacak.
-
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
+
 
 const colors = {
   "primary": Color.fromRGBO(207, 175, 119, 1),
@@ -43,6 +44,7 @@ final lightTheme = ThemeData(
 
 final darkTheme = ThemeData(
   brightness: Brightness.dark,
+  textTheme: GoogleFonts.amitaTextTheme(),
   colorScheme: ColorScheme.dark(
     brightness: Brightness.dark,
     primary: darkColors["primary"]!,

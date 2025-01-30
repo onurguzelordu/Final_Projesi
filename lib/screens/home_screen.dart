@@ -223,11 +223,31 @@ class HomePage extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          Text(
-                            name,
-                            style: const TextStyle(fontWeight: FontWeight.bold),
+                         
+
+                            Text( name,
+                          
+                            style: const TextStyle(
+                              color: Colors.brown, // Açıklama metninin rengi
+                              fontSize: 14, // Boyut da ekleyebilirsiniz
+                            ),
                           ),
-                          Text(description),
+
+                       const SizedBox(height: 10),
+
+                          Text(
+                            description,
+                          
+                            style: const TextStyle(
+                              color: Colors.brown, // Açıklama metninin rengi
+                              fontSize: 14, // Boyut da ekleyebilirsiniz
+                            ),
+                          ),
+                        
+
+
+                        const SizedBox(height: 10),
+
                           Text(
                             '₺${price.toStringAsFixed(2)}',
                           style: const TextStyle(
