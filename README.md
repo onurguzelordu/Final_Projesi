@@ -15,13 +15,10 @@ https://youtube.com/shorts/QsiCJR7g4Jg?feature=share
 
 # Ekibimiz:
 
-https://github.com/onurguzelordu (Onur Güzelordu)
-
 • Danışman:
 https://github.com/keyvanarasteh (Keyvan Arasteh)
 
 • Takım Üyeleri:
-
 https://github.com/onurguzelordu (Onur Güzelordu)
 
 # Özellikler
@@ -78,10 +75,12 @@ lib/
 
 Ekran Görüntüleri:
 
-![Home_Decoration1](https://github.com/user-attachments/assets/4d6a5d84-39e2-451c-a6b2-7081a91b513c)
-![Screenshot (2)](https://github.com/user-attachments/assets/44a7b0f3-ab08-4050-b28f-7c9684ed246b)
-![Screenshot (3)](https://github.com/user-attachments/assets/59e59635-d837-478b-9bad-384dbc6845a3)
-![Screenshot (7)](https://github.com/user-attachments/assets/2b087ba7-d8fe-40b5-8c6a-b6ac28eaa352)
+![1](https://github.com/user-attachments/assets/a6937ff2-b786-487e-a947-ce94b5062bac)
+![2](https://github.com/user-attachments/assets/c941e9eb-290a-4343-b8bd-62cb6489a636)
+![3](https://github.com/user-attachments/assets/8ec2d877-fdcc-4e0a-9acc-99c831d71622)
+![4](https://github.com/user-attachments/assets/e2ce0ede-1a70-4148-b1f6-a17cb06b68c4)
+![5](https://github.com/user-attachments/assets/95bebdf9-9a76-4953-8b5f-800dfdb3f701)
+![6](https://github.com/user-attachments/assets/606e2a14-ec70-4c25-b08b-629e916caee6)
 
 
 
