@@ -79,6 +79,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                 ),
                 const SizedBox(height: 60,),
               TextField(
+                style: const TextStyle(color: Colors.brown), 
                 controller: _nameController,
                 decoration: const InputDecoration(
                   hintText: 'İsim',
@@ -86,6 +87,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
               ),
               const SizedBox(height: 16.0),
               TextField(
+                style: const TextStyle(color: Colors.brown), 
                 controller: _surnameController,
                 decoration: const InputDecoration(
                   hintText: 'Soyisim',
@@ -93,6 +95,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
               ),
               const SizedBox(height: 16.0),
               TextField(
+                style: const TextStyle(color: Colors.brown), 
                 controller: _phoneController,
                 decoration: const InputDecoration(
                   hintText: 'Telefon Numarası',
@@ -100,6 +103,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
               ),
               const SizedBox(height: 16.0),
               TextField(
+                style: const TextStyle(color: Colors.brown), 
                 controller: _emailController,
                 decoration: const InputDecoration(
                   hintText: 'E-posta Adresi',
@@ -107,6 +111,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
               ),
               const SizedBox(height: 16.0),
               TextField(
+                style: const TextStyle(color: Colors.brown), 
                 controller: _addressController,
                 decoration: const InputDecoration(
                   hintText: 'Adresiniz',
@@ -115,6 +120,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
 
               const SizedBox(height: 16.0),
               TextField(
+                style: const TextStyle(color: Colors.brown), 
                 controller: _passwordController,
                 obscureText: true,
                 decoration: const InputDecoration(
@@ -123,6 +129,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
               ),
               const SizedBox(height: 16.0),
               TextField(
+                style: const TextStyle(color: Colors.brown), 
                 controller: _confirmPasswordController,
                 obscureText: true,
                 decoration: const InputDecoration(

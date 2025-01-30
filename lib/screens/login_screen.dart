@@ -69,6 +69,7 @@ class _LoginScreenState extends State<LoginScreen> {
             ),
               const SizedBox(height: 150,),
               TextField(
+                style: const TextStyle(color: Colors.brown), 
                 controller: epostaYonetici,
                 decoration: InputDecoration(
                   hintText: "E-Postanizi Giriniz",
@@ -80,6 +81,7 @@ class _LoginScreenState extends State<LoginScreen> {
               ),
               const SizedBox(height: 16),
               TextFormField(
+                style: const TextStyle(color: Colors.brown), 
                 
                 obscureText: true,
                 controller: sifreYonetici,

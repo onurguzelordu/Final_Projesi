@@ -6,6 +6,7 @@ import 'package:home_decoration/widgets/bottom_menu.dart';
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
 
+
   final List<String> imageUrls = const [
     "https://cdn.dsmcdn.com/ty1462/product/media/images/prod/QC/20240805/12/8421301d-e917-3e95-b07d-635b7de87a5a/1_org_zoom.jpg",
     "https://m.media-amazon.com/images/I/717yZN1f6bL._AC_UF1000,1000_QL80_.jpg",
@@ -181,6 +182,9 @@ class HomePage extends StatelessWidget {
         ),
       ),
       appBar: AppBar(
+        
+     
+               
         actions: [
           IconButton(
               onPressed: () {
