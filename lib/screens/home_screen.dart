@@ -230,7 +230,7 @@ class HomePage extends StatelessWidget {
                           Text(description),
                           Text(
                             '₺${price.toStringAsFixed(2)}',
-                          style: TextStyle(
+                          style: const TextStyle(
                               fontWeight: FontWeight.bold,
                               color: Colors.green,
                             ),
