@@ -29,6 +29,7 @@ const darkColors = {
 
 final lightTheme = ThemeData(
   brightness: Brightness.light,
+  textTheme: GoogleFonts.amitaTextTheme(),
   colorScheme: ColorScheme.light(
     brightness: Brightness.light,
     primary: colors["primary"]!,

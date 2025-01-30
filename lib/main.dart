@@ -17,7 +17,7 @@ class HomeStyle extends StatelessWidget {
       theme: lightTheme,
       darkTheme: darkTheme,
       themeMode: ThemeMode
-          .dark, // system yaparsak kullanıcı hangi modda kullanıyorsa  o mod açık kalır.
+          .light, // system yaparsak kullanıcı hangi modda kullanıyorsa  o mod açık kalır.
       routerConfig: router, // go_router yapılandırmamızı kullan
       debugShowCheckedModeBanner: false, // Debug bandını kaldır
     );
