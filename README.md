@@ -15,9 +15,6 @@ https://youtube.com/shorts/DXxpv0yizO8?feature=share
 
 # Ekibimiz:
 
-• Danışman:
-https://github.com/keyvanarasteh (Keyvan Arasteh)
-
 • Takım Üyeleri:
 https://github.com/onurguzelordu (Onur Güzelordu)
 
@@ -106,4 +103,4 @@ Ekran Görüntüleri:
 
 # Teşekkürler
 
-• İstinye Üniversitesi'ne destekleri ve Danışmanımız Keyvan Arasteh'e yardımları için teşekkürler.
+• İstinye Üniversitesi'ne destekleri ve yardımları için teşekkürler.
